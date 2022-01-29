@@ -1,0 +1,42 @@
+#first{
+    width:100%;
+    height: 800px;
+background-image: url("/img/first.png");
+background-repeat: no-repeat;
+background-position: right top;
+ 
+@include tab {
+    background-image: url("/img/res/first.png"); 
+    background-position:center ;
+   background-size:auto 100%;
+    width: 100vw;
+    height: 100vh;;
+    padding: 0;
+    margin-top: 0;
+    object-fit: cover;
+}
+}
+.first-log_1{
+font-size: 3.8rem;
+margin-left: 13.1%;
+padding-top: 20%;
+@include tab{
+    order:2;
+    color: #fff;
+ align-items: center;
+justify-content: center;
+padding-top: 210px;
+}
+}
+
+.first-log_2{
+    font-size: 3.8rem;
+    margin-left: 13.1%;
+    margin-top:1.26% ;
+    @include tab{
+    order:1;
+        color: #fff;
+   align-items: center;
+justify-content: center;
+}
+}

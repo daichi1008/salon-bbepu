@@ -1,0 +1,71 @@
+#access{
+    width: 100%;
+    height: 757px;
+    padding-top:261px ;
+    background-color: #A193861F;
+
+    @include tab{
+            height: 100vh;
+            padding-top: 50px;
+          
+}
+           }
+
+
+.access-wrap{
+    display: flex;
+    justify-content: space-between;
+    @include tab{
+    flex-direction: column-reverse;}
+    }
+
+.access-nav{
+    width: 500px;
+    height: 396px;
+     display: flex;
+    background-color: #D0C5BA;
+            @include tab{
+           text-align: left;
+           width: 100%;
+           padding: 20px;
+                }
+}
+
+.access-ul{
+
+    width: 39.6%;
+   font-size: 1.6rem;
+   margin-left: 104px;
+    margin-top: 101px;  
+     white-space: nowrap;
+     @include tab{
+         margin-left:initial ;
+         margin-top: initial;
+         
+     }
+}
+.li{
+    color:#fff;
+    padding-bottom: 24px;
+}
+    .access-title{
+        font-size: 2.4rem;
+        color: #00000038;
+        padding-bottom: 30px;
+         @include tab{
+         text-align:left;
+           white-space: nowrap;
+           margin:initial;
+    }
+}
+
+.access-map{
+    width: 60.4%;
+    height: 396px;
+     @include tab{
+         width: 100%;
+        height: 231px; 
+      display: block;
+        
+        }
+}
